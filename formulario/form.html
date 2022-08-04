@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+    <meta charset="UTF-8"/>
+    <title>Formulário Simples</title>
+</head>
+
+<body>
+
+    <div>
+        
+        <form method="get" action="form.php">
+
+            Nome: <input type="text" name="nome"/><br/>
+            Ano de Nascimento: <input type="number" name="ano"/><br/>
+            Endereço: <input type="text" name="endereco"/><br/>
+            <fieldset><legend>Sexo</legend>
+                <input type="radio" name="sexo" id="masc" value="homem" checked/>
+                <label for="masc">Masculino</label><br/>
+                <input type="radio" name="sexo" id="fem" value="feminino"/>
+                <label for="fem">Feminino</label>
+            
+            </fieldset><br/>
+
+            <input type="submit" value="Enviar"/>
+                
+
+        </form>
+
+    </div>
+
+
+</body>
+
+
+
+</html>
